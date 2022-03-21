@@ -16,7 +16,7 @@ public class Student {
     @OneToOne
     private Address primaryAddress;
 
-    @OneToMany
+    @ManyToMany
     private List<Course> courses;
 
     public long getId() {
